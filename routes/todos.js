@@ -2,7 +2,7 @@
 var router = require('express').Router();
 var AV = require('leanengine');
 
-var Todo = AV.Object.extend('Todo');
+var Todo = AV.Object.extend('Todo2');
 
 // 查询 Todo 列表
 router.get('/', function(req, res, next) {
